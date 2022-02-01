@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.oais.ip"
+<rdf:RDF xmlns="http://www.oais.ip#"
      xml:base="http://www.oais.ip"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:www="http://www.oais.ip#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oais="http://www.oais.ip#">
     <owl:Ontology rdf:about="http://www.oais.ip">
         <owl:versionIRI rdf:resource="http://www.oais.ip/0.2"/>
         <rdfs:comment xml:lang="en">This ontology realises the OAIS information model as semantic web compliant ontology. The OAIS onformation model specifies Information Packages of various kins for usage in long term preservation.
@@ -32,7 +32,7 @@ An Information Package is a logical container composed of optional Information O
         <rdfs:domain rdf:resource="http://www.oais.ip#OWLClass_726b1d12_438c_4fd2_9231_0247163ba6b7"/>
         <rdfs:range rdf:resource="http://www.oais.ip#OWLClass_2104e04d_3fd5_416c_b94c_ec9803a257ca"/>
         <rdfs:comment xml:lang="en">The Content Information of an AIC is composed of complete AIPs</rdfs:comment>
-        <rdfs:label xml:lang="en">composedOf</rdfs:label>
+        <rdfs:label xml:lang="de">composedOf</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -300,7 +300,7 @@ An Information Package is a logical container composed of optional Information O
 
     <owl:Class rdf:about="http://www.oais.ip#OWLClass_208b0e70_d885_4782_9f15_dbc1af32cbfb">
         <rdfs:comment xml:lang="en">A type of Package Description that is specialized to provide information about an Archival Information Unit for use by Access Aids.</rdfs:comment>
-        <rdfs:label xml:lang="en">Unit Description</rdfs:label>
+        <rdfs:label xml:lang="de">Unit Description</rdfs:label>
     </owl:Class>
     
 
