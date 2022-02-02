@@ -5,9 +5,9 @@ This project structure includes:
 - Folder **tbox** that contains:
   - The **oais-ip-tbox.owl** file that is OAIS IP ontology schema.
 - Folder **abox** that contains three sets of individual assertions stored in the following ontology files:  
-    - The **blue-statistics.owl** ontology file that contains individual assertions representing actual objects in *TIB Terminology Service Statistics domain*. 
+    - The **blue-statistics.owl** ontology file that contains individual assertions representing actual objects in *TIB Terminology Service Statistics* domain. 
     - The **blue-library.owl** file that contains individual assertions representing actual objects in *TIB Terminology Service Library* domain. 
-    - The **green.owl** file that contains individual assertions representing actual objects in *CoyPu collection* domain. It states that CoyPu collection is composed on CoyPu collection content information. 
+    - The **green.owl** file that contains individual assertions representing actual objects in *CoyPu collection* domain. It states that CoyPu collection is composed of CoyPu collection content information. 
 - Folder **images** that contains: 
   - The **oais-ip-tib-terminology-service-statistics.png** that depicts class hiearchy from OAIS IP ontology and related individual assertions from TIB Terminology Service Statistics domain. 
   - The **importing-mechanism-oais-ip-collection-project.png** that depicts how importing mechanism works in OAIS IP ontology project.
