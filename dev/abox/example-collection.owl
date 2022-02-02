@@ -9,7 +9,9 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/krdzavacn/ontologies/2022/1/untitled-ontology-97">
         <owl:imports rdf:resource="http://www.oais.ip/0.2"/>
-        <owl:imports rdf:resource="http://www.semanticweb.org/krdzavacn/ontologies/2022/1/untitled-ontology-99"/>
+        <owl:imports rdf:resource="https://git.tib.eu/terminology/sandbox/oais-ip-ontology-collection/raw/master/dev/abox/example-1-aip.owl"/>
+		<owl:imports rdf:resource="https://git.tib.eu/terminology/sandbox/oais-ip-ontology-collection/raw/master/dev/abox/example-2-aip.owl"/>
+		<owl:imports rdf:resource="https://git.tib.eu/terminology/sandbox/oais-ip-ontology-collection/raw/master/dev/tbox/oais-ip-tbox.owl"/>
     </owl:Ontology>
     
 
