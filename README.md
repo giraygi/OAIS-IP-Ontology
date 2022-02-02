@@ -14,6 +14,8 @@ This project structure includes:
   
 ## Importing Mechanism
 
+![Importing mechanism for OAIS IP ontology](images/importing-mechanism-oais-ip-collection-project.png)
+
 The **green.owl** ontology file imports the following ontology files:
 
 - **blue-statistics.owl** that imports **oais-ip-tbox.owl**
